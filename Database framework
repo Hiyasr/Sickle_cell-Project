@@ -1,0 +1,12 @@
+database/
+├── 📂 train/
+│   ├── 📂 normal/              # Images of normal bone scans (class 0)
+│   └── 📂 sickle_cell/         # Images of sickle-cell affected bone scans (class 1)
+│
+├── 📂 validation/
+│   ├── 📂 normal/              # Validation set of normal bone scans
+│   └── 📂 sickle_cell/         # Validation set of sickle-cell affected bone scans
+│
+├── 📂 test/
+│   ├── 📂 normal/              # Test set of normal bone scans
+│   └── 📂 sickle_cell/         # Test set of sickle-cell affected bone scans
